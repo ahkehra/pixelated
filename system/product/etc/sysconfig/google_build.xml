@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 The Android Open Source Project
+<!-- Copyright (C) 2014 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +14,11 @@
      limitations under the License.
 -->
 
-<!-- The OMA DM service must be whitelisted so they are always able to run. -->
+<!-- These are configurations that should exist on Google's own Nexus and GPe devices. -->
 <config>
-    <allow-in-power-save package="com.android.omadm.service" />
+    <feature name="com.google.android.feature.GOOGLE_BUILD" />
+    <!-- This should be added to all Nexus and GPe devices -->
+    <feature name="com.google.android.feature.GOOGLE_EXPERIENCE" />
+    <!-- This should declare the version of Exchange that ships -->
+    <feature name="com.google.android.feature.EXCHANGE_6_2" />
 </config>
