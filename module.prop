@@ -1,6 +1,6 @@
 id=pixel5props
 name=PIXEL 5 Props
-version=X11.4
+version=X11.5
 versionCode=11
 author=akira-vishal
 description=A Magisk Module for Pixel Features that adds the system files for the same and spoof using the latest device fingerprint from Google Pixel 5

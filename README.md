@@ -1,6 +1,6 @@
 ##### PIXEL 5 Props | Magisk Module
 
-##### Contact: [Akira](https://t.me/AkiraProjects)
+##### Contact: [Akira Release](https://t.me/AkiraProjects)
 
 ##### Disclaimer: Naturally, you take all the responsibility for what happens to your device when you start messing around with things. I (Akira) will not be responsible for ANY damage caused to anyone's devices due to the use of this module.
 
@@ -9,6 +9,12 @@
 ##### ✓ INSTALLATION: Just flash via Magisk and reboot
 
 #### - ChangeLog - 
+
+### Version: X11.5
+
+- system.prop: Updated props from Redfin Feb Release
+- system: Updated XML from Redfin Feb Release
+- apk: Updated Main Components Apk
 
 ### Version: X11.4
 
