@@ -26,7 +26,7 @@ if ([ "$ROM" == "Evolution" ]); then
     echo ""
     echo "- Installing, Pixel 5 (REDFIN) Props For Evolution X -"
     echo ""
-    cp -af $MODPATH/flag_value.xml /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml
+    cp -af $MODPATH/xml /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml
 else
     echo ""
     echo "------------------------------------------------------"
@@ -48,7 +48,7 @@ else
     echo "- Installation, Pixel 5 (REDFIN) Props -"
     echo ""
     sed -i '/org.evolution.device=redfin/s/.*//' $MODPATH/system.prop;
-    cp -af $MODPATH/flag_value.xml /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml
+    cp -af $MODPATH/xml /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml
 fi
 HAL=$(getprop persist.vendor.camera.HAL3.enabled 2>/dev/null)
 if ([ "$HAL" == "0" ]); then

@@ -10,6 +10,11 @@
 
 #### - ChangeLog - 
 
+### Version: X11.6
+
+- install.sh: Added GBoard New Theme
+- system.prop: Enabled GBoard Rounded
+
 ### Version: X11.5
 
 - system.prop: Updated props from Redfin Feb Release
