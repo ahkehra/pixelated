@@ -17,6 +17,7 @@ cleanup() {
   rm -rf $MODPATH/LICENSE 2>/dev/null
   rm -rf $MODPATH/README.md 2>/dev/null
   rm -rf $MODPATH/base.apk 2>/dev/null
+  rm -rf $MODPATH/flag_value.xml 2>/dev/null
 }
 
 device_check() {
