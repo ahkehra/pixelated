@@ -12,7 +12,7 @@
 
 ### Version: X11.6
 
-- install.sh: Added GBoard New Theme
+- Added More files from REDFIN
 - system.prop: Enabled GBoard Rounded
 
 ### Version: X11.5
