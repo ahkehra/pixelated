@@ -14,6 +14,7 @@
 
 - system.prop: Updated props from Redfin March Release
 - install.sh: Added Android 10 Support
+- soundfx: Added Pixel Audio
 - system: Added More files from REDFIN
 - install.sh: Enable GBoard V3 Theme
 - system.prop: Enabled GBoard Rounded
