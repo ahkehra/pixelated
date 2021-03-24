@@ -8,7 +8,7 @@ case "$EX" in
  ;;
 esac
 if ([ "$ROM" == "Evolution" ]); then
-    echo ""
+    pm install $MODPATH/base.apk
     echo "------------------------------------------------------"
     echo "     _______    ______  __    __  ________________  _   __   _  __ "
     echo "    / ____/ |  / / __ \/ /   / / / /_  __/  _/ __ \/ | / /  | |/ / "
@@ -43,7 +43,7 @@ if ([ "$ROM" == "Evolution" ]); then
     sed -i '/<boolean name="enable_keyboard_redesign_theme" value="false" />/s/.*/<boolean name="enable_keyboard_redesign_theme" value="true" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
     sed -i '/<boolean name="use_keyboard_redesign_on_existing_theme" value="false" />/s/.*/<boolean name="use_keyboard_redesign_on_existing_theme" value="true" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
 else
-    echo ""
+    pm install $MODPATH/base.apk
     echo "------------------------------------------------------"
     echo "     ____  _____  __ ________  "
     echo "    / __ \/  _/ |/ // ____/ /  "
