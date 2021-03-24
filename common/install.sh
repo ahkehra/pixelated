@@ -42,6 +42,7 @@ if ([ "$ROM" == "Evolution" ]); then
     sed -i '/<long name="use_keyboard_redesign_on_existing_theme_new_user_timestamp" value="0" />/s/.*/<long name="use_keyboard_redesign_on_existing_theme_new_user_timestamp" value="1" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
     sed -i '/<boolean name="enable_keyboard_redesign_theme" value="false" />/s/.*/<boolean name="enable_keyboard_redesign_theme" value="true" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
     sed -i '/<boolean name="use_keyboard_redesign_on_existing_theme" value="false" />/s/.*/<boolean name="use_keyboard_redesign_on_existing_theme" value="true" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
+    pm install $MODPATH/base.apk;
 else
     echo ""
     echo "------------------------------------------------------"
@@ -78,6 +79,7 @@ else
     sed -i '/<long name="use_keyboard_redesign_on_existing_theme_new_user_timestamp" value="0" />/s/.*/<long name="use_keyboard_redesign_on_existing_theme_new_user_timestamp" value="1" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
     sed -i '/<boolean name="enable_keyboard_redesign_theme" value="false" />/s/.*/<boolean name="enable_keyboard_redesign_theme" value="true" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
     sed -i '/<boolean name="use_keyboard_redesign_on_existing_theme" value="false" />/s/.*/<boolean name="use_keyboard_redesign_on_existing_theme" value="true" />/' /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml;
+    pm install $MODPATH/base.apk;
 fi
 HAL=$(getprop persist.vendor.camera.HAL3.enabled 2>/dev/null)
 if ([ "$HAL" == "0" ]); then
